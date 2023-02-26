@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Number Guessing Game.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="mainBox">
+
+            <div class="game-name">
+                <h1 id="h1">Number Guessing Game</h1>
+            </div>
+
+            <div class="range-select">
+                <h3 id="h3">Select Range for Play Game</h3>
+                <p class="range-btn" id="zeroToHundred">1-3</p>
+                <p class="range-btn" id="oneToNine">1-9</p>
+                <p class="range-btn" id="aToJ">A-J/a-j</p>
+            </div>
+
+
+            <div class="inputText-1">
+                <input id="num-input-1" class="num-input" type="number" placeholder="Enter Number">
+                <button id="btn-output-1" class="btn-output">SEE OUTPUT</button>
+            </div>
+
+            <div class="inputText-2">
+                <input id="num-input-2" class="num-input" type="number" placeholder="Enter Number">
+                <button id="btn-output-2" class="btn-output">SEE OUTPUT</button>
+            </div>
+
+
+            <div class="inputText-4">
+                <input id="num-input-4" class="num-input" type="character" placeholder="Enter Character">
+                <button id="btn-output-4" class="btn-output">SEE OUTPUT</button>
+            </div>
+
+
+            <div class="message">
+                <p id="result-greet">Hurrah ! You won</p>
+                <p id="generatedNumber">Generated Number is <span>5</span> </p>
+                <p id="guessingNumber">Your Guessing Number is <span>5</span></p>
+            </div>
+
+            <div class="restart-game">
+                <h3 id="h2"><span>CLICK HERE</span> FOR RESTART GAME</h3>
+            </div>
+
+            <div class="audio-video">
+                <audio id="lose" src="lose.mp3"></audio>
+                <audio id="won" src="won.mp3"></audio>
+            </div>
+
+        </div>
+    </div>
+    <script src="Number Guessing Game.js"></script>
+</body>
+
+</html>
